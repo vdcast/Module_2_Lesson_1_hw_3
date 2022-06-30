@@ -8,4 +8,7 @@ public class Calculator {
     public double squareArea(double sideLength){
         return (sideLength * sideLength);
     }
+    public double rectangleArea(double firstSideLength, double secondSideLength){
+        return (firstSideLength * secondSideLength);
+    }
 }
