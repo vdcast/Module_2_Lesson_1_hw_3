@@ -5,4 +5,7 @@ public class Calculator {
         double pi = 3.14;
         return (pi * radius * radius);
     }
+    public double squareArea(double sideLength){
+        return (sideLength * sideLength);
+    }
 }
